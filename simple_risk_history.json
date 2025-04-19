@@ -372,20 +372,20 @@
   },
   {
     "parameters": {
-      "suicidal_thoughts": "severe",
-      "suicide_plan": "severe",
-      "suicide_intent": "severe",
-      "prior_attempts": "severe",
-      "self_harm": "moderate",
+      "suicidal_thoughts": "none",
+      "suicide_plan": "mild",
+      "suicide_intent": "mild",
+      "prior_attempts": "mild",
+      "self_harm": "mild",
       "hopelessness": "moderate",
-      "depression": "moderate",
-      "anxiety": "moderate",
-      "isolation": "moderate",
+      "depression": "none",
+      "anxiety": "mild",
+      "isolation": "mild",
       "impulsivity": "moderate",
-      "substance_use": "extreme",
-      "sleep_problems": "moderate",
-      "life_stressors": "moderate",
-      "access_to_means": "severe",
+      "substance_use": "mild",
+      "sleep_problems": "mild",
+      "life_stressors": "mild",
+      "access_to_means": "mild",
       "support_network": "mild"
     },
     "prediction": "high",
@@ -415,20 +415,20 @@
   },
   {
     "parameters": {
-      "suicidal_thoughts": "severe",
-      "suicide_plan": "severe",
-      "suicide_intent": "severe",
-      "prior_attempts": "severe",
-      "self_harm": "moderate",
+      "suicidal_thoughts": "none",
+      "suicide_plan": "mild",
+      "suicide_intent": "mild",
+      "prior_attempts": "mild",
+      "self_harm": "mild",
       "hopelessness": "moderate",
-      "depression": "moderate",
-      "anxiety": "moderate",
-      "isolation": "moderate",
+      "depression": "none",
+      "anxiety": "mild",
+      "isolation": "mild",
       "impulsivity": "moderate",
-      "substance_use": "extreme",
-      "sleep_problems": "moderate",
-      "life_stressors": "moderate",
-      "access_to_means": "severe",
+      "substance_use": "mild",
+      "sleep_problems": "mild",
+      "life_stressors": "mild",
+      "access_to_means": "mild",
       "support_network": "mild"
     },
     "prediction": "high",
@@ -455,5 +455,80 @@
       ]
     },
     "timestamp": "2025-04-19 13:53:12"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": "none",
+      "suicide_plan": "mild",
+      "suicide_intent": "mild",
+      "prior_attempts": "mild",
+      "self_harm": "mild",
+      "hopelessness": "moderate",
+      "depression": "none",
+      "anxiety": "mild",
+      "isolation": "mild",
+      "impulsivity": "moderate",
+      "substance_use": "mild",
+      "sleep_problems": "mild",
+      "life_stressors": "mild",
+      "access_to_means": "mild",
+      "support_network": "mild"
+    },
+    "prediction": "high",
+    "risk_score": 57.407407407407405,
+    "probabilities": {
+      "critical": 0.0003532066821569824,
+      "high": 0.8373816448213982,
+      "low": 0.0,
+      "moderate": 0.1622651484964448
+    },
+    "risk_factors": {
+      "high_risk_factors": [
+        "suicidal_thoughts",
+        "suicide_plan",
+        "suicide_intent",
+        "prior_attempts",
+        "access_to_means"
+      ],
+      "protective_factors": [],
+      "warning_combinations": [
+        "thoughts_with_plan",
+        "intent_with_means"
+      ]
+    },
+    "timestamp": "2025-04-19 13:55:59"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": "none",
+      "suicide_plan": "mild",
+      "suicide_intent": "mild",
+      "prior_attempts": "mild",
+      "self_harm": "mild",
+      "hopelessness": "moderate",
+      "depression": "none",
+      "anxiety": "mild",
+      "isolation": "mild",
+      "impulsivity": "moderate",
+      "substance_use": "mild",
+      "sleep_problems": "mild",
+      "life_stressors": "mild",
+      "access_to_means": "mild",
+      "support_network": "mild"
+    },
+    "prediction": "moderate",
+    "risk_score": 20.37037037037037,
+    "probabilities": {
+      "critical": 0.0,
+      "high": 0.048877641740299266,
+      "low": 0.26949871675258,
+      "moderate": 0.6816236415071207
+    },
+    "risk_factors": {
+      "high_risk_factors": [],
+      "protective_factors": [],
+      "warning_combinations": []
+    },
+    "timestamp": "2025-04-19 13:57:43"
   }
 ]
