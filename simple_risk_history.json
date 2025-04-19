@@ -372,18 +372,18 @@
   },
   {
     "parameters": {
-      "suicidal_thoughts": "none",
-      "suicide_plan": "mild",
+      "suicidal_thoughts": "moderate",
+      "suicide_plan": "severe",
       "suicide_intent": "mild",
       "prior_attempts": "mild",
       "self_harm": "mild",
       "hopelessness": "moderate",
-      "depression": "none",
+      "depression": "extreme",
       "anxiety": "mild",
       "isolation": "mild",
       "impulsivity": "moderate",
-      "substance_use": "mild",
-      "sleep_problems": "mild",
+      "substance_use": "none",
+      "sleep_problems": "none",
       "life_stressors": "mild",
       "access_to_means": "mild",
       "support_network": "mild"
@@ -415,18 +415,18 @@
   },
   {
     "parameters": {
-      "suicidal_thoughts": "none",
-      "suicide_plan": "mild",
+      "suicidal_thoughts": "moderate",
+      "suicide_plan": "severe",
       "suicide_intent": "mild",
       "prior_attempts": "mild",
       "self_harm": "mild",
       "hopelessness": "moderate",
-      "depression": "none",
+      "depression": "extreme",
       "anxiety": "mild",
       "isolation": "mild",
       "impulsivity": "moderate",
-      "substance_use": "mild",
-      "sleep_problems": "mild",
+      "substance_use": "none",
+      "sleep_problems": "none",
       "life_stressors": "mild",
       "access_to_means": "mild",
       "support_network": "mild"
@@ -458,18 +458,18 @@
   },
   {
     "parameters": {
-      "suicidal_thoughts": "none",
-      "suicide_plan": "mild",
+      "suicidal_thoughts": "moderate",
+      "suicide_plan": "severe",
       "suicide_intent": "mild",
       "prior_attempts": "mild",
       "self_harm": "mild",
       "hopelessness": "moderate",
-      "depression": "none",
+      "depression": "extreme",
       "anxiety": "mild",
       "isolation": "mild",
       "impulsivity": "moderate",
-      "substance_use": "mild",
-      "sleep_problems": "mild",
+      "substance_use": "none",
+      "sleep_problems": "none",
       "life_stressors": "mild",
       "access_to_means": "mild",
       "support_network": "mild"
@@ -500,18 +500,18 @@
   },
   {
     "parameters": {
-      "suicidal_thoughts": "none",
-      "suicide_plan": "mild",
+      "suicidal_thoughts": "moderate",
+      "suicide_plan": "severe",
       "suicide_intent": "mild",
       "prior_attempts": "mild",
       "self_harm": "mild",
       "hopelessness": "moderate",
-      "depression": "none",
+      "depression": "extreme",
       "anxiety": "mild",
       "isolation": "mild",
       "impulsivity": "moderate",
-      "substance_use": "mild",
-      "sleep_problems": "mild",
+      "substance_use": "none",
+      "sleep_problems": "none",
       "life_stressors": "mild",
       "access_to_means": "mild",
       "support_network": "mild"
@@ -530,5 +530,43 @@
       "warning_combinations": []
     },
     "timestamp": "2025-04-19 13:57:43"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": "moderate",
+      "suicide_plan": "severe",
+      "suicide_intent": "mild",
+      "prior_attempts": "mild",
+      "self_harm": "mild",
+      "hopelessness": "moderate",
+      "depression": "extreme",
+      "anxiety": "mild",
+      "isolation": "mild",
+      "impulsivity": "moderate",
+      "substance_use": "none",
+      "sleep_problems": "none",
+      "life_stressors": "mild",
+      "access_to_means": "mild",
+      "support_network": "mild"
+    },
+    "prediction": "moderate",
+    "risk_score": 35.648148148148145,
+    "probabilities": {
+      "critical": 0.01,
+      "high": 0.13501324135039483,
+      "low": 0.060020919449086475,
+      "moderate": 0.7949658392005187
+    },
+    "risk_factors": {
+      "high_risk_factors": [
+        "suicide_plan",
+        "depression"
+      ],
+      "protective_factors": [],
+      "warning_combinations": [
+        "thoughts_with_plan"
+      ]
+    },
+    "timestamp": "2025-04-19 14:08:59"
   }
 ]
