@@ -1,0 +1,28 @@
+{
+  "parameters": {
+    "suicidal_thoughts": "none",
+    "suicide_plan": "none",
+    "suicide_intent": "none",
+    "hopelessness": "none",
+    "depression": "none",
+    "isolation": 4,
+    "impulsivity": 4,
+    "substance_use": 4,
+    "prior_attempts": 1,
+    "self_harm": 1,
+    "anxiety": 4,
+    "life_stressors": 4,
+    "access_to_means": 4,
+    "sleep_problems": 4,
+    "support_network": 4
+  },
+  "prediction": "moderate",
+  "risk_score": 42.25,
+  "probabilities": {
+    "critical": 0.1,
+    "high": 0.11,
+    "low": 0.1,
+    "moderate": 0.69
+  },
+  "timestamp": "2025-04-19 12:19:19"
+}

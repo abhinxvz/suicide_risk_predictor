@@ -1,0 +1,459 @@
+[
+  {
+    "parameters": {
+      "suicidal_thoughts": 0,
+      "suicide_plan": 0,
+      "suicide_intent": 0,
+      "hopelessness": 0,
+      "depression": 0,
+      "isolation": 0,
+      "impulsivity": 0,
+      "substance_use": 0,
+      "prior_attempts": 0,
+      "self_harm": 0,
+      "anxiety": 0,
+      "life_stressors": 0,
+      "access_to_means": 0,
+      "sleep_problems": 0,
+      "support_network": 4
+    },
+    "prediction": "low",
+    "risk_score": 0.0,
+    "probabilities": {
+      "critical": 0.0,
+      "high": 0.0,
+      "low": 1.0,
+      "moderate": 0.0
+    },
+    "risk_factors": {
+      "high_risk_factors": [],
+      "protective_factors": [
+        "strong_social_support"
+      ],
+      "warning_combinations": []
+    },
+    "timestamp": "2025-04-19 12:25:40"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": 2,
+      "suicide_plan": 2,
+      "suicide_intent": 2,
+      "hopelessness": 2,
+      "depression": 2,
+      "isolation": 2,
+      "impulsivity": 2,
+      "substance_use": 2,
+      "prior_attempts": 2,
+      "self_harm": 2,
+      "anxiety": 2,
+      "life_stressors": 2,
+      "access_to_means": 2,
+      "sleep_problems": 2,
+      "support_network": 2
+    },
+    "prediction": "high",
+    "risk_score": 46.2962962962963,
+    "probabilities": {
+      "critical": 0.0007125733321904802,
+      "high": 0.536267449644967,
+      "low": 0.0006652695810771701,
+      "moderate": 0.4623547074417654
+    },
+    "risk_factors": {
+      "high_risk_factors": [],
+      "protective_factors": [],
+      "warning_combinations": [
+        "thoughts_with_plan",
+        "intent_with_means"
+      ]
+    },
+    "timestamp": "2025-04-19 12:25:40"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": 3,
+      "suicide_plan": 3,
+      "suicide_intent": 3,
+      "hopelessness": 3,
+      "depression": 3,
+      "isolation": 3,
+      "impulsivity": 3,
+      "substance_use": 3,
+      "prior_attempts": 3,
+      "self_harm": 3,
+      "anxiety": 3,
+      "life_stressors": 3,
+      "access_to_means": 3,
+      "sleep_problems": 3,
+      "support_network": 1
+    },
+    "prediction": "critical",
+    "risk_score": 69.44444444444444,
+    "probabilities": {
+      "critical": 0.8399726009947078,
+      "high": 0.15928638251875588,
+      "low": 0.0,
+      "moderate": 0.0007410164865363665
+    },
+    "risk_factors": {
+      "high_risk_factors": [
+        "suicidal_thoughts",
+        "suicide_plan",
+        "suicide_intent",
+        "hopelessness",
+        "depression",
+        "isolation",
+        "impulsivity",
+        "substance_use",
+        "prior_attempts",
+        "self_harm",
+        "anxiety",
+        "life_stressors",
+        "access_to_means",
+        "sleep_problems"
+      ],
+      "protective_factors": [],
+      "warning_combinations": [
+        "thoughts_with_plan",
+        "intent_with_means",
+        "severe_depression_hopelessness"
+      ]
+    },
+    "timestamp": "2025-04-19 12:25:40"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": 4,
+      "suicide_plan": 4,
+      "suicide_intent": 4,
+      "hopelessness": 4,
+      "depression": 4,
+      "isolation": 4,
+      "impulsivity": 4,
+      "substance_use": 4,
+      "prior_attempts": 4,
+      "self_harm": 4,
+      "anxiety": 4,
+      "life_stressors": 4,
+      "access_to_means": 4,
+      "sleep_problems": 4,
+      "support_network": 0
+    },
+    "prediction": "critical",
+    "risk_score": 92.5925925925926,
+    "probabilities": {
+      "critical": 1.0,
+      "high": 0.0,
+      "low": 0.0,
+      "moderate": 0.0
+    },
+    "risk_factors": {
+      "high_risk_factors": [
+        "suicidal_thoughts",
+        "suicide_plan",
+        "suicide_intent",
+        "hopelessness",
+        "depression",
+        "isolation",
+        "impulsivity",
+        "substance_use",
+        "prior_attempts",
+        "self_harm",
+        "anxiety",
+        "life_stressors",
+        "access_to_means",
+        "sleep_problems"
+      ],
+      "protective_factors": [],
+      "warning_combinations": [
+        "thoughts_with_plan",
+        "intent_with_means",
+        "severe_depression_hopelessness"
+      ]
+    },
+    "timestamp": "2025-04-19 12:25:40"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": "moderate",
+      "suicide_plan": "mild",
+      "suicide_intent": "moderate",
+      "hopelessness": "moderate",
+      "depression": "severe",
+      "isolation": "moderate",
+      "impulsivity": "mild",
+      "substance_use": "mild",
+      "prior_attempts": "none",
+      "self_harm": "mild",
+      "anxiety": "severe",
+      "life_stressors": "moderate",
+      "access_to_means": "mild",
+      "sleep_problems": "moderate",
+      "support_network": "moderate"
+    },
+    "prediction": "moderate",
+    "risk_score": 33.33333333333333,
+    "probabilities": {
+      "critical": 0.0,
+      "high": 0.19689021610454133,
+      "low": 0.10854523749174588,
+      "moderate": 0.6945645464037128
+    },
+    "risk_factors": {
+      "high_risk_factors": [
+        "depression",
+        "anxiety"
+      ],
+      "protective_factors": [],
+      "warning_combinations": []
+    },
+    "timestamp": "2025-04-19 12:25:41"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": "none",
+      "suicide_plan": "none",
+      "suicide_intent": "mild",
+      "prior_attempts": "mild",
+      "self_harm": "mild",
+      "hopelessness": "none",
+      "depression": "none",
+      "anxiety": "none",
+      "isolation": "none",
+      "impulsivity": "none",
+      "substance_use": "none",
+      "sleep_problems": "none",
+      "life_stressors": "none",
+      "access_to_means": "none",
+      "support_network": "none"
+    },
+    "prediction": "low",
+    "risk_score": 4.166666666666666,
+    "probabilities": {
+      "critical": 0.0,
+      "high": 0.004217877094972065,
+      "low": 0.8866460285229502,
+      "moderate": 0.10913609438207764
+    },
+    "risk_factors": {
+      "high_risk_factors": [],
+      "protective_factors": [],
+      "warning_combinations": []
+    },
+    "timestamp": "2025-04-19 12:31:59"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": "severe",
+      "suicide_plan": "moderate",
+      "suicide_intent": "none",
+      "prior_attempts": "none",
+      "self_harm": "moderate",
+      "hopelessness": "none",
+      "depression": "none",
+      "anxiety": "none",
+      "isolation": "none",
+      "impulsivity": "none",
+      "substance_use": "none",
+      "sleep_problems": "none",
+      "life_stressors": "none",
+      "access_to_means": "none",
+      "support_network": "none"
+    },
+    "prediction": "low",
+    "risk_score": 13.88888888888889,
+    "probabilities": {
+      "critical": 0.04886941314185805,
+      "high": 0.11462455372402292,
+      "low": 0.4501863346873348,
+      "moderate": 0.38631969844678427
+    },
+    "risk_factors": {
+      "high_risk_factors": [
+        "suicidal_thoughts"
+      ],
+      "protective_factors": [],
+      "warning_combinations": [
+        "thoughts_with_plan"
+      ]
+    },
+    "timestamp": "2025-04-19 12:40:17"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": "moderate",
+      "suicide_plan": "moderate",
+      "suicide_intent": "moderate",
+      "prior_attempts": "moderate",
+      "self_harm": "moderate",
+      "hopelessness": "moderate",
+      "depression": "moderate",
+      "anxiety": "moderate",
+      "isolation": "moderate",
+      "impulsivity": "moderate",
+      "substance_use": "moderate",
+      "sleep_problems": "moderate",
+      "life_stressors": "moderate",
+      "access_to_means": "moderate",
+      "support_network": "moderate"
+    },
+    "prediction": "high",
+    "risk_score": 46.2962962962963,
+    "probabilities": {
+      "critical": 0.0007125733321904802,
+      "high": 0.536267449644967,
+      "low": 0.0006652695810771701,
+      "moderate": 0.4623547074417654
+    },
+    "risk_factors": {
+      "high_risk_factors": [],
+      "protective_factors": [],
+      "warning_combinations": [
+        "thoughts_with_plan",
+        "intent_with_means"
+      ]
+    },
+    "timestamp": "2025-04-19 13:41:10"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": "extreme",
+      "suicide_plan": "extreme",
+      "suicide_intent": "extreme",
+      "prior_attempts": "extreme",
+      "self_harm": "extreme",
+      "hopelessness": "extreme",
+      "depression": "extreme",
+      "anxiety": "extreme",
+      "isolation": "extreme",
+      "impulsivity": "extreme",
+      "substance_use": "extreme",
+      "sleep_problems": "extreme",
+      "life_stressors": "extreme",
+      "access_to_means": "extreme",
+      "support_network": "extreme"
+    },
+    "prediction": "critical",
+    "risk_score": 96.29629629629629,
+    "probabilities": {
+      "critical": 0.7805565878305282,
+      "high": 0.2094434121694718,
+      "low": 0.0,
+      "moderate": 0.01
+    },
+    "risk_factors": {
+      "high_risk_factors": [
+        "suicidal_thoughts",
+        "suicide_plan",
+        "suicide_intent",
+        "hopelessness",
+        "depression",
+        "isolation",
+        "impulsivity",
+        "substance_use",
+        "prior_attempts",
+        "self_harm",
+        "anxiety",
+        "life_stressors",
+        "access_to_means",
+        "sleep_problems"
+      ],
+      "protective_factors": [
+        "strong_social_support"
+      ],
+      "warning_combinations": [
+        "thoughts_with_plan",
+        "intent_with_means",
+        "severe_depression_hopelessness"
+      ]
+    },
+    "timestamp": "2025-04-19 13:44:16"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": "severe",
+      "suicide_plan": "severe",
+      "suicide_intent": "severe",
+      "prior_attempts": "severe",
+      "self_harm": "moderate",
+      "hopelessness": "moderate",
+      "depression": "moderate",
+      "anxiety": "moderate",
+      "isolation": "moderate",
+      "impulsivity": "moderate",
+      "substance_use": "extreme",
+      "sleep_problems": "moderate",
+      "life_stressors": "moderate",
+      "access_to_means": "severe",
+      "support_network": "mild"
+    },
+    "prediction": "high",
+    "risk_score": 61.111111111111114,
+    "probabilities": {
+      "critical": 0.09524199069217011,
+      "high": 0.8954845468385442,
+      "low": 0.0,
+      "moderate": 0.009273462469285766
+    },
+    "risk_factors": {
+      "high_risk_factors": [
+        "suicidal_thoughts",
+        "suicide_plan",
+        "suicide_intent",
+        "substance_use",
+        "prior_attempts",
+        "access_to_means"
+      ],
+      "protective_factors": [],
+      "warning_combinations": [
+        "thoughts_with_plan",
+        "intent_with_means"
+      ]
+    },
+    "timestamp": "2025-04-19 13:46:45"
+  },
+  {
+    "parameters": {
+      "suicidal_thoughts": "severe",
+      "suicide_plan": "severe",
+      "suicide_intent": "severe",
+      "prior_attempts": "severe",
+      "self_harm": "moderate",
+      "hopelessness": "moderate",
+      "depression": "moderate",
+      "anxiety": "moderate",
+      "isolation": "moderate",
+      "impulsivity": "moderate",
+      "substance_use": "extreme",
+      "sleep_problems": "moderate",
+      "life_stressors": "moderate",
+      "access_to_means": "severe",
+      "support_network": "mild"
+    },
+    "prediction": "high",
+    "risk_score": 61.111111111111114,
+    "probabilities": {
+      "critical": 0.09524199069217011,
+      "high": 0.8954845468385442,
+      "low": 0.0,
+      "moderate": 0.009273462469285766
+    },
+    "risk_factors": {
+      "high_risk_factors": [
+        "suicidal_thoughts",
+        "suicide_plan",
+        "suicide_intent",
+        "substance_use",
+        "prior_attempts",
+        "access_to_means"
+      ],
+      "protective_factors": [],
+      "warning_combinations": [
+        "thoughts_with_plan",
+        "intent_with_means"
+      ]
+    },
+    "timestamp": "2025-04-19 13:53:12"
+  }
+]
